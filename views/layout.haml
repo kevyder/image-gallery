@@ -9,5 +9,8 @@
         %script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js")
         %script(src="/js/lightbox.min.js")
     %body
+        %nav.navbar.navbar-inverse
+            %a{:class => 'navbar-brand', :href => "/"} Gallery
+            %ul.nav.navbar-nav
         %div.container
             =yield
