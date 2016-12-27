@@ -5,7 +5,9 @@
             %li.col-md-4
                 %h3=image.title
                 %a{href: image.file, data:{ lightbox: 'gallery', title: image.title }}
-                    %img{src: image.file.small.url, width: '100%'}
+                    %img{src: image.file.small.url, width: '100%', id: 'image-index'}
+                %a{:class => 'btn btn-default' , :href => "/images/#{image.id}" } show
+                %a{:class => 'btn btn-default' , :href => "/images/delete/#{image.id}" } delete
             
 %h2 Upload a new image
 %form(action='/images' method='post' enctype='multipart/form-data')
