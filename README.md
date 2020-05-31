@@ -1,19 +1,37 @@
-# Image-gallery on sinatra por Kevin Rodríguez
+# Image Gallery
 
 2016/12/28
 
-Se utilizó:
+## It Use:
 
-* Sinatra
+* Sinatra 2.0.8.1
 
-* SQLite3
+* SQLite3 1.4.2
 
-* Bootstrap-sass
+* Bootstrap 3.3.7
 
-* CarrierWave
+* CarrierWave 2.1
 
-* HAML
+* HAML 5.1.2
 
-* Sequel
+* Sequel 5.32
 
-* rmagick
+* rmagick 4.1.2
+
+## Usage
+
+Clone this repository executing:
+
+    $ git clone https://github.com/kevyder/image_gallery.git
+
+And execute:
+
+    $ cd image_gallery
+
+To install the project gems execute:.
+
+    $ bundle install
+
+To run the project execute:
+
+    $ rackup -p <PORT>
